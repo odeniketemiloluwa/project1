@@ -1,35 +1,33 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
     <head>
-<title> my new web</title>
-<link href="main.css" rel="stylesheet">
+        <title>My FE assignment</title>
+        <link href ="style.css" rel="stylesheet">
     </head>
     <body>
-<header>
-    <h1>Oloyede Motors </h1>
-  
-    <ul>
-    <li><a href="history.html">History</a></li>
-    <li><a href="#">About us</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="#">Contact</a></li>
-</ul>
-
-</header>
-<div class="container">
-    <h2>Login</h2>
-
-    <form action="#">
-        <span class="info"><label for="e-mail">E-mail:</label></span>
-        <input type="email" class="infoinput" id="email" placeholder="example@gmail.com">
-        <span class="info"><label for="password">Password:</label></span>
-        <input type="password" class="infoinput" id="pwd" placeholder="Enter password">
-        <button type="submit" value="Login in">Log in</button>
-    </form>
-    <div class="others">
-    <div class="forgotlink"><a href="#">Forgot Password?</a></div>
-    <div class="signuplink"><a href="#">Sign up</a></div>
-</div>
-</div>
+        <header>
+          <h1>  Registration Form </h1>
+        </header>
+        <div class ="container">
+            <form action="#">
+            <h2>Register Now</h2>
+               <label for="fname" >Full Name:</label>
+            <input type="text"  class="infoinput" id="fname"
+placeholder="Enter Fullname"            required>
+            <label for="E-mail" >E-mail:</label>
+            <input type="email"  class="infoinput" id="email" placeholder="example@gmail.com" required>
+               <label for="phonenumber" >Phone Number:</label>
+            <input type="tel"  class="infoinput" id="telphone" placeholder="+234 8123456789" required>
+            <div class ="gender">
+            <input type="radio" class="sex"  id="male" name="sex">
+            <label for="gender" style="padding-left:5px" >Male</label>
+               <input type="radio"  class="sex" id="female" name="sex">
+            <label for="gender" style="padding-left:5px" >Female</label>
+            </div>
+                 <label for="password" >Password:</label>
+            <input type="password"  class="infoinput" id="pwd" placeholder="Enter Password">
+            <button type="submit" value="register">Register</button>
+       </form>
+        </div>
     </body>
 </html>
